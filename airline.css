@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(img.hg/ii.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height:100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 20px;
+background-color: rgba(74, 9, 147, 0.604);
+
+}
+.navigation a{
+    color: white;
+
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-right: 20px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:800 ;
+    color: white;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.span-logo{
+margin-left:5px;
+}
+.img-card{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    box-shadow: 5px 25px 25px gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+.img-card img{
+    width: 100%;
+}
+.image h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.image p{
+    font-size: 20px;
+    text-align: center;
+}
+.card .img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    box-shadow: 5px 25px 25px gray;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+.card .img img{
+    width: 100%;
+   
+}
+.card{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: -32.6%;
+}
+.img h2{
+    text-align: center;
+    font-size: 30px;
+}
+.img p{
+    font-size: 20px;
+    text-align: center;
+}
+#cardd .imgg{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    box-shadow: 5px 25px 25px gray;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+#cardd .imgg img{
+    width: 100%;
+}
+#cardd{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -32.2%;
+}
+#cardd .imgg h2{
+    text-align: center;
+    font-size: 30px;
+}
+#cardd .imgg p{
+    font-size: 20px;
+    text-align: center;
+}
+.ca .c{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    box-shadow: 5px 25px 25px gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+.ca .c img{
+    width: 100%;
+}
+.ca .c h2{
+    text-align: center;
+    font-size: 30px;
+}
+.ca .c p{
+    font-size: 20px;
+    text-align: center;
+}
+.zz .yy{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    box-shadow: 5px 25px 25px gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+.pp .zz{
+    display: flex;
+    justify-content: center;
+    margin-top: -32.6%;
+}
+.pp .zz img{
+    width: 100%;
+}
+.pp .zz h2{
+    text-align: center;
+    font-size: 30px;
+}
+.pp .zz p{
+    font-size: 20px;
+    text-align: center;
+}
+.lm .demo{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    box-shadow: 5px 25px 25px gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+.lm .demo .poe img{
+    width: 100%;
+}
+.lm{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -32.6%;
+   
+   
+}
+.lm .demo .poe h2{
+    text-align: center;
+    font-size: 30px;
+}
+    .lm .demo .poe p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .popo{
+        
+        text-align: center;
+        
+    }
+    .popo button{
+        border: none;
+        border-radius:23px;
+        font-size: 17px;
+        padding: 10px;
+    }
+    #pop button{
+        font-size: 22px;
+        padding: 10px;
+    }
+    #pop button:hover{
+        background-color: black;
+        color: white;
+    }
+    .popo button:hover{
+        background-color: black;
+        color: white;
+    }
+    #input-text{
+        margin-left: 56%;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color:rgba(0, 191, 255, 0.308);
+        text-align: center;
+        font-size: 15px;
+        text-transform: capitalize;
+        margin-top: 15px;
+    }
+    #input-text2{
+        margin-left:56%;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color:rgba(0, 191, 255, 0.308);
+        text-align: center;
+        font-size: 15px;
+        margin-top: 8px;
+        text-transform: capitalize;
+       
+    }
+    #email{
+       margin-left:22%;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color:rgba(0, 191, 255, 0.308);
+        text-align: center;
+        font-size: 15px;
+        
+        text-transform: capitalize;
+       
+
+
+
+    }
+    #input-passowrd{
+       
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color:rgba(0, 191, 255, 0.308);
+        text-align: center;
+        font-size: 15px;
+    
+       
+       margin-left: 298px;
+       
+        text-transform: capitalize;
+      
+    }
+    .email{
+        display: flex;
+        align-items: center;
+        margin-top: -10%;
+    }
+    .ssd{
+        margin-left: 30%;
+        padding: 15px;
+        border: none;
+        border-radius:20px;
+       
+    }
+    .ssd:hover{
+        background-color: black;
+        color: white;
+    }
+   .ri-plane-line{
+    font-size: 30px;
+    color: black;
+   }
+   .h33{
+    margin-left: 57%;
+}
+.h34{
+       margin-left: 47%;
+       background-color: deepskyblue;
+       border-radius: 15px;
+       width: 90px;
+       text-align: center;
+       font-size: 20px;
+       margin-top: 4px;
+      margin-top: 10px;
+      color: white;
+
+   }
+.qe{
+    
+    color: white;
+display: flex;
+
+justify-content: center;
+margin-right: 70px;
+display: inline-block;
+    
+   }
+   .qee{
+    text-decoration: none;
+    color: white;
+    margin-top: -10%;
+    
+    
+}
+#input{
+    margin-top: -70px;
+}
+.h344{
+margin-top: -50px;
+}
+.h344 h3:hover{
+    background-color: black;
+    color: white;
+    cursor: grab;
+}
+.btn{
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center; 
+    margin-left: 40%;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.image h1{
+   text-align: center;
+}
+.img h1{
+    text-align: center;
+    
+}
+.img .btn{
+    margin-top: 10%;
+    
+}
+.imgg h1{
+    text-align: center;
+}
+.imgg .btn{
+    margin-top: 10%;
+    
+}
+.c h1{
+    text-align: center;
+}
+.c .btn{
+    margin-top: 10%;
+    
+}
+.yy h1{
+    text-align: center;
+}
+.yy .btn{
+    margin-top: 10%;
+    
+}
+.poe h1{
+    text-align: center;
+}
+.poe .btn{
+    margin-top: 10%;
+    
+}
+.eee{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 160px;
+    margin-left: 590px;
+}
+.eee:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:900px) {
+   .cards{
+    height: 300px;
+    width: 300px;
+   }
+   .card{
+    height: 300px;
+    width: 300px;
+   }
+}
+@keyframes logo{
+    
+        0%{
+            color: darkgoldenrod;
+        }
+        25%{
+            color: darkgreen;
+        }
+        50%{
+            color: darkorchid;
+        }
+        75%{
+            color: darkturquoise;
+        }
+        95%{
+            color: darkgray;
+        
+    }
+    
+}

@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    width: 100%;
+    min-height:100vh;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 20px;
+background-color: rgba(74, 9, 147, 0.604);
+box-shadow: 5px 10px 5px #eee;
+
+}
+.navigation a{
+    color: white;
+
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-right: 20px;
+    margin-right: 80px;
+    animation-name:hd;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+.navigation a{
+    font-size: 25px;
+    padding: 12px;
+    background-color: rgb(90, 90, 143);
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:800 ;
+    color: white;
+    animation-name:hd;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.span-logo{
+margin-left:5px;
+}
+.img-head img{
+    width: 100%;
+    min-height: 50vh;
+    padding-top: 5px;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+gap: 3%;
+}
+
+.cards {
+    width: 20%;
+height: fit-content;
+direction: rtl;
+margin-top: 150px;
+border: 1px solid gray;
+border-radius: 20px;
+transition: 2s;
+}
+.cards img{
+    width: 100%;
+    height: 50%;
+}
+.cards:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+div .text-head{
+    font-size: 20px ;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 700;
+    color: red;
+    border-bottom: 5px solid red;
+
+}
+
+.info{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.info h3{
+    padding-bottom: 10px;
+}
+.info p{
+    font-size: 20px;
+    color: rgb(8, 0, 255);
+}
+.bot{
+    margin-top: 100px;
+   width: 100%;
+    min-height: 500px;
+    background-color: rgb(4, 136, 75);
+
+}
+.bot img{
+   margin-left: 800px;
+   margin-top: 90px;
+   height: 300px;
+   width: 549px;
+}
+.foo-img{
+    margin-top: -300px;
+    height: 1px;
+    width: 1px;
+}
+.pragraph{
+    text-align:center;
+    margin-right: 700px;
+    margin-top: -240px;
+    font-size: 30px;
+
+}
+.pp{
+    text-align: right;
+    margin-right: 120px;
+
+}
+@keyframes hd{
+
+    0%{
+        color: red;
+    }
+    25%{
+        color: gold;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+
+        color: blue;
+    }
+    95%{
+        color: purple;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
